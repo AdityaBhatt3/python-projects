@@ -1,32 +1,4 @@
-# import turtle
-# from turtle import Turtle, Screen
-# import random
-#
-# race_on = False
-# screen = Screen()
-# screen.setup(height=500, width=500)
-# colour = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
-#
-# # coordinates x=-250 y=-250
-# user_choice = screen.textinput(title='turtle race,place ur bet', prompt='select your player through colour {vibgyor}')
-# y_pos = [-100, -70, -40, 0, 30, 70, 100]
-# all_turtles = []
-# for turtle_index in range(0, 7):
-#     new_turtle = Turtle(shape='turtle')
-#     new_turtle.penup()
-#     new_turtle.color(colour[turtle_index])
-#     new_turtle.goto(x=-240, y=y_pos[turtle_index])
-#     all_turtles.append(turtle_index)
-#
-# if user_choice:
-#     race_on = True
-#
-# while race_on:
-#     for turtle in all_turtles:
-#         distance = random.randint(1, 25)
-#         turtle.forward(distance)
-#
-# screen.exitonclick()
+
 from turtle import Turtle, Screen
 import random
 
